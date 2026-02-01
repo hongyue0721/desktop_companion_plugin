@@ -1,0 +1,16 @@
+# 桌面伴侣插件配置示例
+# 复制为 config.toml 并按需修改
+
+[plugin]
+enabled = true  # 是否启用插件
+
+[schedule]
+event_check_seconds = 10  # 日程检查间隔（秒）
+
+[screenshot]
+enabled = true           # 是否启用定时截图
+interval_minutes = 30    # 截图间隔（分钟）
+cleanup_file = true      # 截图后是否删除临时文件
+
+[target]
+default_stream_id = ""   # 默认推送 stream_id（留空则使用最近活跃流）

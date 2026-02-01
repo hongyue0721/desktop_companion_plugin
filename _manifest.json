@@ -1,0 +1,25 @@
+{
+  "manifest_version": 1,
+  "name": "桌面伴侣",
+  "version": "0.1.0",
+  "description": "桌面伴侣插件：日程、提醒与定时截图",
+  "author": {
+    "name": "DesktopUser"
+  },
+  "license": "MIT",
+  "host_application": {
+    "min_version": "0.10.0",
+    "max_version": "0.12.2"
+  },
+  "homepage_url": "",
+  "repository_url": "",
+  "keywords": ["desktop", "schedule", "reminder"],
+  "categories": ["Utility"],
+  "default_locale": "zh-CN",
+  "plugin_info": {
+    "is_built_in": false,
+    "plugin_type": "general",
+    "components": []
+  },
+  "python_dependencies": ["pyautogui"]
+}
