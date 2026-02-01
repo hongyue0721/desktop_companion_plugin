@@ -1,0 +1,1 @@
+# desktop_companion_plugin
